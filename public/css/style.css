@@ -8,4 +8,23 @@ h1 {
   font-family: "Shrikhand", cursive;
 }
 
+.header {
+  width: 100vw;
+  margin-top: 5px;
+}
+.header__icon {
+  float: left;
+  margin: 6%;
+  font-size: 1.13rem;
+}
+.header__icon:active {
+  display: none;
+}
+.header__title {
+  width: fit-content;
+  margin: auto;
+  line-height: 60px;
+  font-size: 1.88rem;
+}
+
 /*# sourceMappingURL=style.css.map */
