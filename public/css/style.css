@@ -32,6 +32,17 @@ h2 {
   font-size: 1.88rem;
 }
 
+.section-location {
+  background: #eaeaea;
+  text-align: center;
+}
+.section-location__icon {
+  margin-right: 15px;
+}
+.section-location__text {
+  display: inline-block;
+}
+
 .footer {
   background: #353535;
   color: #ffffff;
