@@ -13,6 +13,11 @@ h2 {
   font-size: 1.13rem;
 }
 
+h3 {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
 .header {
   width: 100vw;
   margin-top: 5px;
@@ -43,6 +48,15 @@ h2 {
   display: inline-block;
 }
 
+.section-explore {
+  background: #f6f6f6;
+  text-align: center;
+  padding: 30px 30px 55px 30px;
+}
+.section-explore__title {
+  padding: 0 20px;
+}
+
 .footer {
   background: #353535;
   color: #ffffff;
@@ -50,6 +64,15 @@ h2 {
 }
 .footer__icon {
   min-width: 30px;
+}
+
+.btn {
+  background-image: linear-gradient(to bottom right, #ff79da, #9356dc);
+  color: #ffffff;
+  padding: 15px 25px;
+  border-radius: 50px;
+  border: none;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
 /*# sourceMappingURL=style.css.map */
