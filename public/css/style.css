@@ -4,8 +4,13 @@ button {
   font-family: "Roboto", sans-serif;
 }
 
-h1 {
+h1,
+h2 {
   font-family: "Shrikhand", cursive;
+}
+
+h2 {
+  font-size: 1.13rem;
 }
 
 .header {
@@ -14,7 +19,7 @@ h1 {
 }
 .header__icon {
   float: left;
-  margin: 6%;
+  margin: 20px;
   font-size: 1.13rem;
 }
 .header__icon:active {
@@ -25,6 +30,15 @@ h1 {
   margin: auto;
   line-height: 60px;
   font-size: 1.88rem;
+}
+
+.footer {
+  background: #353535;
+  color: #ffffff;
+  padding: 20px;
+}
+.footer__icon {
+  min-width: 30px;
 }
 
 /*# sourceMappingURL=style.css.map */
