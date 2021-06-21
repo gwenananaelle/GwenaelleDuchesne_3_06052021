@@ -87,6 +87,38 @@ h3 {
   display: inline-block;
 }
 
+.section-restaurants {
+  padding: 5vw;
+  background: #f6f6f6;
+}
+.section-restaurants__card {
+  height: 248px;
+  width: auto;
+  border-radius: 25px;
+  margin: 1.25rem 0;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.section-restaurants__card__img {
+  object-fit: cover;
+  width: 100%;
+  height: calc(100% - 75px);
+  border-radius: 25px 25px 0 0;
+}
+.section-restaurants__card__title {
+  margin: 0.5rem 0.75rem;
+  font-weight: bold;
+}
+.section-restaurants__card__text {
+  margin: 0.5rem 0.75rem;
+}
+.section-restaurants__card__icon {
+  float: right;
+  width: 70px;
+  text-align: center;
+  padding: 25px 0;
+  font-size: 1.25rem;
+}
+
 .footer {
   background: #353535;
   color: #ffffff;

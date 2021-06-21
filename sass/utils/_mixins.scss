@@ -19,3 +19,9 @@
   line-height: 25px;
   color: #ffffff;
 }
+@mixin restaurand-card {
+  object-fit: cover;
+  width: 100%;
+  height: calc(100% - 75px);
+  border-radius: 25px 25px 0 0;
+}
