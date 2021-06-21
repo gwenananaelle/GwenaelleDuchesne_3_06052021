@@ -1,0 +1,22 @@
+.section-steps {
+  padding: $section-padding;
+  &__step {
+    @include box-shadow;
+    width: calc(100vw - 50px);
+    margin: 20px auto;
+    border-radius: 20px;
+  }
+  &__number {
+    @include circle;
+    position: relative;
+    left: -12px;
+  }
+  &__icon {
+    color: #7e7e7e;
+    margin: 20px;
+    display: inline-block;
+  }
+  &__text {
+    display: inline-block;
+  }
+}

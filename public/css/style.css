@@ -57,10 +57,40 @@ h3 {
   padding: 0 20px;
 }
 
+.section-steps {
+  padding: 5vw;
+}
+.section-steps__step {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  width: calc(100vw - 50px);
+  margin: 20px auto;
+  border-radius: 20px;
+}
+.section-steps__number {
+  height: 25px;
+  width: 25px;
+  background-color: #9356dc;
+  border-radius: 50%;
+  display: inline-block;
+  text-align: center;
+  line-height: 25px;
+  color: #ffffff;
+  position: relative;
+  left: -12px;
+}
+.section-steps__icon {
+  color: #7e7e7e;
+  margin: 20px;
+  display: inline-block;
+}
+.section-steps__text {
+  display: inline-block;
+}
+
 .footer {
   background: #353535;
   color: #ffffff;
-  padding: 20px;
+  padding: 5vw;
 }
 .footer__icon {
   min-width: 30px;
