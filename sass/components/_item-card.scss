@@ -1,0 +1,9 @@
+.card {
+  background: #ffffff;
+  border-radius: 25px;
+  padding: 10px;
+  @include box-shadow;
+  &__span {
+    float: right;
+  }
+}
