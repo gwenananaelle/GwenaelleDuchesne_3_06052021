@@ -2,6 +2,9 @@
   background: #353535;
   color: #ffffff;
   padding: $section-padding;
+  &__title {
+    font-family: $title-font;
+  }
   &__icon {
     min-width: 30px;
   }
