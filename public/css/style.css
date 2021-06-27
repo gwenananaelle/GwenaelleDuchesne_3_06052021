@@ -79,7 +79,7 @@ a:active {
   padding: 5vw;
 }
 .section-steps__step {
-  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0 7px 29px 0;
   width: calc(100vw - 50px);
   margin: 20px auto;
   border-radius: 20px;
@@ -114,7 +114,7 @@ a:active {
   width: auto;
   border-radius: 25px;
   margin: 1.25rem 0;
-  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0 7px 29px 0;
 }
 .section-restaurants__card__img {
   object-fit: cover;
@@ -150,19 +150,24 @@ a:active {
 }
 
 .btn {
-  background-image: linear-gradient(to bottom right, #ff79da, #9356dc);
   color: #ffffff;
   padding: 15px 25px;
   border-radius: 50px;
   border: none;
-  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0 7px 29px 0;
+  background-image: linear-gradient(to bottom right, #ff79da, #9356dc);
+  transition: box-shadow, background-image 1000ms;
+}
+.btn:hover {
+  box-shadow: #64646f 0 7px 29px 0;
+  background-image: linear-gradient(to bottom right, #ff93e1, #a16be0);
 }
 
 .card {
   background: #ffffff;
   border-radius: 25px;
   padding: 10px;
-  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0 7px 29px 0;
 }
 .card__title {
   font-size: 1.13rem;

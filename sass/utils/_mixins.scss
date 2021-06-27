@@ -1,13 +1,18 @@
-@mixin box-shadow {
-  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+@mixin box-shadow(
+  $color: rgba(100, 100, 111, 0.2),
+  $top: 0,
+  $right: 7px,
+  $bottom: 29px,
+  $left: 0
+) {
+  box-shadow: $color $top $right $bottom $left;
 }
-@mixin btn {
-  background-image: $gradient;
-  color: #ffffff;
-  padding: 15px 25px;
-  border-radius: 50px;
-  border: none;
-  @include box-shadow();
+@mixin gradient(
+  $direction: bottom right,
+  $color-one: $color-secondary,
+  $color-two: $color-primary
+) {
+  background-image: linear-gradient(to $direction, $color-one, $color-two);
 }
 @mixin circle {
   height: 25px;

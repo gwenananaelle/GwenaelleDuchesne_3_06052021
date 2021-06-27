@@ -5,7 +5,7 @@
     font-weight: 900;
   }
   &:hover {
-    background-image: $gradient;
+    @include gradient();
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     &::before {

@@ -1,3 +1,17 @@
 .btn {
-    @include btn
+  color: #ffffff;
+  padding: 15px 25px;
+  border-radius: 50px;
+  border: none;
+  @include box-shadow();
+  @include gradient();
+  transition: box-shadow, background-image 1000ms;
+  &:hover {
+    @include box-shadow(rgba(100, 100, 111, 1), 0, 7px, 29px, 0);
+    @include gradient(
+      bottom right,
+      lighten($color-secondary, 5%),
+      lighten($color-primary, 5%)
+    );
+  }
 }
