@@ -1,0 +1,16 @@
+.animated-heart {
+  font-weight: 100;
+  transition: font-weight 200ms;
+  &:hover {
+    font-weight: 900;
+  }
+  &:hover {
+    background-image: $gradient;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    &::before {
+      background-image: none;
+      transition: background-image 200ms;
+    }
+  }
+}

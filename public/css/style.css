@@ -177,6 +177,23 @@ a:active {
   font-weight: bold;
 }
 
+.animated-heart {
+  font-weight: 100;
+  transition: font-weight 200ms;
+}
+.animated-heart:hover {
+  font-weight: 900;
+}
+.animated-heart:hover {
+  background-image: linear-gradient(to bottom right, #ff79da, #9356dc);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.animated-heart:hover::before {
+  background-image: none;
+  transition: background-image 200ms;
+}
+
 .main {
   background: url(http://placekitten.com/500/400) top center no-repeat;
   padding-top: 220px;
