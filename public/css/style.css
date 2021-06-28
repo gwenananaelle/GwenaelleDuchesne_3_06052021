@@ -80,7 +80,20 @@ a:active {
   font-size: 1.75rem;
   margin-block-end: 2.13rem;
 }
-.section-menu__course {
+
+.course {
+  animation: menu-apparition 1s both;
+}
+.course--1 {
+  animation-delay: 2s;
+}
+.course--2 {
+  animation-delay: 3s;
+}
+.course--3 {
+  animation-delay: 4s;
+}
+.course__title {
   text-transform: uppercase;
   font-weight: 100;
   font-size: 1rem;
@@ -90,6 +103,14 @@ a:active {
   background-size: 50px 3px;
 }
 
+@keyframes menu-apparition {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
 .btn {
   color: #ffffff;
   padding: 15px 25px;
@@ -110,6 +131,7 @@ a:active {
   border-radius: 25px;
   display: flex;
   box-shadow: rgba(100, 100, 111, 0.2) 0 7px 29px 0;
+  margin: 0.75rem 0;
 }
 .card__item {
   height: calc(100%-20px);

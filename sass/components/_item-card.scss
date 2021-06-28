@@ -4,6 +4,7 @@
   border-radius: 25px;
   display: flex;
   @include box-shadow;
+  margin: 0.75rem 0;
   &__item {
     height: calc(100%-20px);
     padding: 10px;
