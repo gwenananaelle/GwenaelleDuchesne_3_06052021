@@ -1,0 +1,13 @@
+.new {
+  position: relative;
+  &::after {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    border-radius: 5px;
+    content: "Nouveau";
+    background-color: $color-tertiary;
+    padding: 10px;
+    color: darken($color-tertiary, 50%);
+  }
+}

@@ -286,6 +286,20 @@ a:active {
     transform: translateX(-9999px);
   }
 }
+.new {
+  position: relative;
+}
+.new::after {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  border-radius: 5px;
+  content: "Nouveau";
+  background-color: #99e2d0;
+  padding: 10px;
+  color: #1b6150;
+}
+
 .main {
   background: url(http://placekitten.com/500/400) top center no-repeat;
   padding-top: 220px;
