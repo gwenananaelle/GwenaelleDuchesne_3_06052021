@@ -270,6 +270,10 @@ a:active {
   color: #1b6150;
 }
 
+#home .header__icon {
+  display: none;
+}
+
 .section-explore {
   background: #f6f6f6;
   text-align: center;
