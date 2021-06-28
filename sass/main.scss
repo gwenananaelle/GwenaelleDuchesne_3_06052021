@@ -2,14 +2,12 @@
 @import "./utils/mixins";
 @import "./base/typography";
 @import "./layout/header";
-@import "./layout/section-location";
-@import "./layout/section-explore";
-@import "./layout/section-steps";
-@import "./layout/section-restaurants";
 @import "./layout/footer";
+@import "./layout/menu";
 @import "./components/buttons";
 @import "./components/item-card";
 @import "./components/animated-heart";
 @import "./components/loader";
 @import "./components/new-tag";
+@import "./pages/home";
 @import "./pages/lapalettedugout";

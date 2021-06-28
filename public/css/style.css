@@ -55,88 +55,6 @@ a:active {
   font-size: 1.88rem;
 }
 
-.section-location {
-  background: #eaeaea;
-  text-align: center;
-}
-.section-location__icon {
-  margin-right: 15px;
-}
-.section-location__text {
-  display: inline-block;
-}
-
-.section-explore {
-  background: #f6f6f6;
-  text-align: center;
-  padding: 30px 30px 55px 30px;
-}
-.section-explore__title {
-  padding: 0 20px;
-}
-
-.section-steps {
-  padding: 5vw;
-}
-.section-steps__step {
-  box-shadow: rgba(100, 100, 111, 0.2) 0 7px 29px 0;
-  width: calc(100vw - 50px);
-  margin: 20px auto;
-  border-radius: 20px;
-}
-.section-steps__number {
-  height: 25px;
-  width: 25px;
-  background-color: #9356dc;
-  border-radius: 50%;
-  display: inline-block;
-  text-align: center;
-  line-height: 25px;
-  color: #ffffff;
-  position: relative;
-  left: -12px;
-}
-.section-steps__icon {
-  color: #7e7e7e;
-  margin: 20px;
-  display: inline-block;
-}
-.section-steps__text {
-  display: inline-block;
-}
-
-.section-restaurants {
-  padding: 5vw;
-  background: #f6f6f6;
-}
-.section-restaurants__card {
-  height: 248px;
-  width: auto;
-  border-radius: 25px;
-  margin: 1.25rem 0;
-  box-shadow: rgba(100, 100, 111, 0.2) 0 7px 29px 0;
-}
-.section-restaurants__card__img {
-  object-fit: cover;
-  width: 100%;
-  height: calc(100% - 75px);
-  border-radius: 25px 25px 0 0;
-}
-.section-restaurants__card__title {
-  margin: 0.5rem 0.75rem;
-  font-weight: bold;
-}
-.section-restaurants__card__text {
-  margin: 0.5rem 0.75rem;
-}
-.section-restaurants__card__icon {
-  float: right;
-  width: 70px;
-  text-align: center;
-  padding: 25px 0;
-  font-size: 1.25rem;
-}
-
 .footer {
   background: #353535;
   color: #ffffff;
@@ -150,6 +68,26 @@ a:active {
 }
 .footer a {
   color: #ffffff;
+}
+
+.section-menu {
+  background: #f6f6f6;
+  border-radius: 45px 45px 0 0;
+  padding: 30px 20px;
+}
+.section-menu__title {
+  font-family: "Shrikhand", cursive;
+  font-size: 1.75rem;
+  margin-block-end: 2.13rem;
+}
+.section-menu__course {
+  text-transform: uppercase;
+  font-weight: 100;
+  font-size: 1rem;
+  background-image: linear-gradient(to right, #99e2d0 80%, transparent 20%);
+  background-position: 0 1em;
+  background-repeat: no-repeat;
+  background-size: 50px 3px;
 }
 
 .btn {
@@ -300,29 +238,91 @@ a:active {
   color: #1b6150;
 }
 
+.section-explore {
+  background: #f6f6f6;
+  text-align: center;
+  padding: 30px 30px 55px 30px;
+}
+.section-explore__title {
+  padding: 0 20px;
+}
+
+.section-location {
+  background: #eaeaea;
+  text-align: center;
+}
+.section-location__icon {
+  margin-right: 15px;
+}
+.section-location__text {
+  display: inline-block;
+}
+
+.section-steps {
+  padding: 5vw;
+}
+.section-steps__step {
+  box-shadow: rgba(100, 100, 111, 0.2) 0 7px 29px 0;
+  width: calc(100vw - 50px);
+  margin: 20px auto;
+  border-radius: 20px;
+}
+.section-steps__number {
+  height: 25px;
+  width: 25px;
+  background-color: #9356dc;
+  border-radius: 50%;
+  display: inline-block;
+  text-align: center;
+  line-height: 25px;
+  color: #ffffff;
+  position: relative;
+  left: -12px;
+}
+.section-steps__icon {
+  color: #7e7e7e;
+  margin: 20px;
+  display: inline-block;
+}
+.section-steps__text {
+  display: inline-block;
+}
+
+.section-restaurants {
+  padding: 5vw;
+  background: #f6f6f6;
+}
+.section-restaurants__card {
+  height: 248px;
+  width: auto;
+  border-radius: 25px;
+  margin: 1.25rem 0;
+  box-shadow: rgba(100, 100, 111, 0.2) 0 7px 29px 0;
+}
+.section-restaurants__card__img {
+  object-fit: cover;
+  width: 100%;
+  height: calc(100% - 75px);
+  border-radius: 25px 25px 0 0;
+}
+.section-restaurants__card__title {
+  margin: 0.5rem 0.75rem;
+  font-weight: bold;
+}
+.section-restaurants__card__text {
+  margin: 0.5rem 0.75rem;
+}
+.section-restaurants__card__icon {
+  float: right;
+  width: 70px;
+  text-align: center;
+  padding: 25px 0;
+  font-size: 1.25rem;
+}
+
 .main {
   background: url(http://placekitten.com/500/400) top center no-repeat;
   padding-top: 220px;
-}
-
-.section-menu {
-  background: #f6f6f6;
-  border-radius: 45px 45px 0 0;
-  padding: 30px 20px;
-}
-.section-menu__title {
-  font-family: "Shrikhand", cursive;
-  font-size: 1.75rem;
-  margin-block-end: 2.13rem;
-}
-.section-menu__course {
-  text-transform: uppercase;
-  font-weight: 100;
-  font-size: 1rem;
-  background-image: linear-gradient(to right, #99e2d0 80%, transparent 20%);
-  background-position: 0 1em;
-  background-repeat: no-repeat;
-  background-size: 50px 3px;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -1,0 +1,68 @@
+.section-explore {
+  background: #f6f6f6;
+  text-align: center;
+  padding: 30px 30px 55px 30px;
+  &__title {
+    padding: 0 20px;
+  }
+}
+.section-location {
+  background: #eaeaea;
+  text-align: center;
+  &__icon {
+    margin-right: 15px;
+  }
+  &__text {
+    display: inline-block;
+  }
+}
+.section-steps {
+  padding: $section-padding;
+  &__step {
+    @include box-shadow;
+    width: calc(100vw - 50px);
+    margin: 20px auto;
+    border-radius: 20px;
+  }
+  &__number {
+    @include circle;
+    position: relative;
+    left: -12px;
+  }
+  &__icon {
+    color: #7e7e7e;
+    margin: 20px;
+    display: inline-block;
+  }
+  &__text {
+    display: inline-block;
+  }
+}
+.section-restaurants {
+  padding: $section-padding;
+  background: #f6f6f6;
+  &__card {
+    height: 248px;
+    width: auto;
+    border-radius: 25px;
+    margin: $margin-cards;
+    @include box-shadow;
+    &__img {
+      @include restaurand-card;
+    }
+    &__title {
+      margin: 0.5rem 0.75rem;
+      font-weight: bold;
+    }
+    &__text {
+      margin: 0.5rem 0.75rem;
+    }
+    &__icon {
+      float: right;
+      width: 70px;
+      text-align: center;
+      padding: 25px 0;
+      font-size: 1.25rem;
+    }
+  }
+}
