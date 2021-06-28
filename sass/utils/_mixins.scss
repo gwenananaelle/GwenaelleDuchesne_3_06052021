@@ -30,3 +30,12 @@
   height: calc(100% - 75px);
   border-radius: 25px 25px 0 0;
 }
+@mixin bkg-img($restaurant-image) {
+  @each $restaurant, $img in $restaurant-image {
+    &-#{$restaurant} {
+      background: url($img) top center no-repeat;
+      background-size: contain;
+      padding-top: 220px;
+    }
+  }
+}

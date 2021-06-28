@@ -55,6 +55,27 @@ a:active {
   font-size: 1.88rem;
 }
 
+.background-alafrancaise {
+  background: url("/public/img/toa-heftiba-DQKerTsQwi0-unsplash.jpg") top center no-repeat;
+  background-size: contain;
+  padding-top: 220px;
+}
+.background-lanoteenchantee {
+  background: url("/public/img/stil-u2Lp8tXIcjw-unsplash.jpg") top center no-repeat;
+  background-size: contain;
+  padding-top: 220px;
+}
+.background-lapalettedugout {
+  background: url("/public/img/jay-wennington-N_Y88TWmGwA-unsplash.jpg") top center no-repeat;
+  background-size: contain;
+  padding-top: 220px;
+}
+.background-ledelicedessens {
+  background: url("/public/img/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg") top center no-repeat;
+  background-size: contain;
+  padding-top: 220px;
+}
+
 .footer {
   background: #353535;
   color: #ffffff;
@@ -360,11 +381,6 @@ a:active {
   text-align: center;
   padding: 25px 0;
   font-size: 1.25rem;
-}
-
-.main {
-  background: url(http://placekitten.com/500/400) top center no-repeat;
-  padding-top: 220px;
 }
 
 /*# sourceMappingURL=style.css.map */
