@@ -326,7 +326,7 @@ a:active {
 }
 .section-steps__step {
   box-shadow: rgba(100, 100, 111, 0.2) 0 7px 29px 0;
-  width: calc(100vw - 50px);
+  width: calc(100vw - 10vw);
   margin: 20px auto;
   border-radius: 20px;
 }
