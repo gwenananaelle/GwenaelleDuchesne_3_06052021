@@ -148,6 +148,9 @@ a:active {
 .footer__icon {
   min-width: 30px;
 }
+.footer a {
+  color: #ffffff;
+}
 
 .btn {
   color: #ffffff;
