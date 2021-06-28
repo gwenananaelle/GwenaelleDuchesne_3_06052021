@@ -12,11 +12,17 @@
 .section-location {
   background: #eaeaea;
   text-align: center;
+  line-height: 3.13rem;
   &__icon {
     margin-right: 15px;
   }
   &__text {
     display: inline-block;
+    border: none;
+    background: transparent;
+    &::placeholder {
+      color: black;
+    }
   }
 }
 .section-steps {

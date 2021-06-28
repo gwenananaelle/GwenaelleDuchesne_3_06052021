@@ -286,12 +286,18 @@ a:active {
 .section-location {
   background: #eaeaea;
   text-align: center;
+  line-height: 3.13rem;
 }
 .section-location__icon {
   margin-right: 15px;
 }
 .section-location__text {
   display: inline-block;
+  border: none;
+  background: transparent;
+}
+.section-location__text::placeholder {
+  color: black;
 }
 
 .section-steps {
