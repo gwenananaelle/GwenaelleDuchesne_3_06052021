@@ -2,6 +2,8 @@
   background: #f6f6f6;
   border-radius: 45px 45px 0 0;
   padding: 30px 20px;
+  display: flex;
+  flex-direction: column;
   &__title {
     font-family: $title-font;
     font-size: 1.75rem;

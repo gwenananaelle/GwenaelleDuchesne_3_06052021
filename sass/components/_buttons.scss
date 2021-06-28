@@ -1,6 +1,8 @@
 .btn {
   color: #ffffff;
   padding: 15px 25px;
+  width: max-content;
+  margin: auto;
   border-radius: 50px;
   border: none;
   @include box-shadow();
