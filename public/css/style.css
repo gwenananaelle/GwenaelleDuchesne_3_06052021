@@ -77,10 +77,16 @@ a:active {
   display: flex;
   flex-direction: column;
 }
-.section-menu__title {
+.section-menu__header {
+  display: flex;
+  margin-block-end: 2.13rem;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.5rem;
+}
+.section-menu__header__title {
   font-family: "Shrikhand", cursive;
   font-size: 1.75rem;
-  margin-block-end: 2.13rem;
 }
 
 .course {

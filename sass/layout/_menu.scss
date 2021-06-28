@@ -4,10 +4,16 @@
   padding: 30px 20px;
   display: flex;
   flex-direction: column;
-  &__title {
-    font-family: $title-font;
-    font-size: 1.75rem;
+  &__header {
+    display: flex;
     margin-block-end: 2.13rem;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.5rem;
+    &__title {
+      font-family: $title-font;
+      font-size: 1.75rem;
+    }
   }
 }
 
