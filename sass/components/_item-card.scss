@@ -1,18 +1,51 @@
 .card {
   background: #ffffff;
+  height: 80px;
   border-radius: 25px;
-  padding: 10px;
+  display: flex;
   @include box-shadow;
-  &__title {
-    font-size: 1.13rem;
-    font-weight: 400;
+  &__item {
+    height: calc(100%-20px);
+    padding: 10px;
+    border-radius: 25px 0 0 25px;
+    background: #ffffff;
+    flex-grow: 1;
+    min-width: 0;
+    &__title {
+      font-size: 1.13rem;
+      font-weight: 400;
+      overflow: hidden;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+    }
+    &__text {
+      font-size: 1rem;
+      font-weight: 100;
+      overflow: hidden;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+    }
+    &__span {
+      padding: 0 15px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-weight: bold;
+      background: #fff;
+    }
   }
-  &__text {
-    font-size: 1rem;
-    font-weight: 100;
+  &__check {
+    width: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+    color: #fff;
+    border-radius: 0 25px 25px 0;
+    transition: width 400ms, background 200ms;
   }
-  &__span {
-    float: right;
-    font-weight: bold;
+  &:hover .card__check {
+    width: 200px;
+    background: $color-tertiary;
   }
 }
