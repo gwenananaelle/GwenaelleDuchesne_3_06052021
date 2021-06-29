@@ -6,9 +6,10 @@
     float: left;
     margin: 20px;
     font-size: 1.13rem;
+    position: absolute;
   }
   &__title {
-    width: fit-content;
+    text-align: center;
     margin: auto;
     line-height: 60px;
     font-size: 1.88rem;
