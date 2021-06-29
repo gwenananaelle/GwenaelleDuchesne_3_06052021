@@ -84,7 +84,7 @@ a:active {
   }
 }
 .background-ledelicedessens {
-  background: url("./public/img/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg") top center no-repeat;
+  background: url("../img/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg") top center no-repeat;
   background-size: contain;
   padding-top: 220px;
 }
