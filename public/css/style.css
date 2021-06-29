@@ -53,7 +53,7 @@ a:active {
 }
 
 .background-alafrancaise {
-  background: url("/public/img/toa-heftiba-DQKerTsQwi0-unsplash.jpg") top center no-repeat;
+  background: url("../img/toa-heftiba-DQKerTsQwi0-unsplash.jpg") top center no-repeat;
   background-size: contain;
   padding-top: 220px;
 }
@@ -63,7 +63,7 @@ a:active {
   }
 }
 .background-lanoteenchantee {
-  background: url("/public/img/stil-u2Lp8tXIcjw-unsplash.jpg") top center no-repeat;
+  background: url("../img/stil-u2Lp8tXIcjw-unsplash.jpg") top center no-repeat;
   background-size: contain;
   padding-top: 220px;
 }
@@ -73,7 +73,7 @@ a:active {
   }
 }
 .background-lapalettedugout {
-  background: url("/public/img/jay-wennington-N_Y88TWmGwA-unsplash.jpg") top center no-repeat;
+  background: url("../img/jay-wennington-N_Y88TWmGwA-unsplash.jpg") top center no-repeat;
   background-size: contain;
   padding-top: 220px;
 }
@@ -83,7 +83,7 @@ a:active {
   }
 }
 .background-ledelicedessens {
-  background: url("/public/img/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg") top center no-repeat;
+  background: url("./public/img/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg") top center no-repeat;
   background-size: contain;
   padding-top: 220px;
 }
