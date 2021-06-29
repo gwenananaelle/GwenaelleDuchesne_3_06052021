@@ -292,6 +292,7 @@ a:active {
   content: "ohmyfood";
   display: block;
   font-size: 2rem;
+  padding: 1rem;
   font-family: "Shrikhand", cursive;
   background: -webkit-linear-gradient(#9356dc, #ff79da);
   -webkit-background-clip: text;
