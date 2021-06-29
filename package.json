@@ -20,5 +20,8 @@
   "homepage": "https://github.com/gwenananaelle/GwenaelleDuchesne_3_06052021#readme",
   "dependencies": {
     "normalize.css": "^8.0.1"
+  },
+  "devDependencies": {
+    "sass": "^1.35.1"
   }
 }

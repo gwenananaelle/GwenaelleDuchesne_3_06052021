@@ -60,20 +60,40 @@ a:active {
   background-size: contain;
   padding-top: 220px;
 }
+@media screen and (min-width: 1023px) {
+  .background-alafrancaise {
+    padding-top: 450px;
+  }
+}
 .background-lanoteenchantee {
   background: url("/public/img/stil-u2Lp8tXIcjw-unsplash.jpg") top center no-repeat;
   background-size: contain;
   padding-top: 220px;
+}
+@media screen and (min-width: 1023px) {
+  .background-lanoteenchantee {
+    padding-top: 450px;
+  }
 }
 .background-lapalettedugout {
   background: url("/public/img/jay-wennington-N_Y88TWmGwA-unsplash.jpg") top center no-repeat;
   background-size: contain;
   padding-top: 220px;
 }
+@media screen and (min-width: 1023px) {
+  .background-lapalettedugout {
+    padding-top: 450px;
+  }
+}
 .background-ledelicedessens {
   background: url("/public/img/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg") top center no-repeat;
   background-size: contain;
   padding-top: 220px;
+}
+@media screen and (min-width: 1023px) {
+  .background-ledelicedessens {
+    padding-top: 450px;
+  }
 }
 
 .footer {
@@ -81,8 +101,21 @@ a:active {
   color: #ffffff;
   padding: 5vw;
 }
+@media screen and (min-width: 1023px) {
+  .footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+}
 .footer__title {
   font-family: "Shrikhand", cursive;
+}
+@media screen and (min-width: 1023px) {
+  .footer__title {
+    width: 100%;
+    text-align: center;
+  }
 }
 .footer__icon {
   min-width: 30px;
@@ -97,6 +130,12 @@ a:active {
   padding: 30px 20px;
   display: flex;
   flex-direction: column;
+}
+@media screen and (min-width: 1023px) {
+  .section-menu {
+    max-width: 90%;
+    margin: auto;
+  }
 }
 .section-menu__header {
   display: flex;
@@ -113,6 +152,13 @@ a:active {
 .course {
   animation: menu-apparition 1s both;
 }
+@media screen and (min-width: 1023px) {
+  .course {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+}
 .course--1 {
   animation-delay: 2s;
 }
@@ -123,6 +169,7 @@ a:active {
   animation-delay: 4s;
 }
 .course__title {
+  width: 100%;
   text-transform: uppercase;
   font-weight: 100;
   font-size: 1rem;
@@ -163,6 +210,11 @@ a:active {
   display: flex;
   box-shadow: rgba(100, 100, 111, 0.2) 0 7px 29px 0;
   margin: 0.75rem 0;
+}
+@media screen and (min-width: 1023px) {
+  .card {
+    width: 30%;
+  }
 }
 .card__item {
   height: calc(100% - 20px);
@@ -324,11 +376,25 @@ a:active {
 .section-steps {
   padding: 5vw;
 }
+@media screen and (min-width: 1023px) {
+  .section-steps {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+.section-steps__title {
+  width: 100%;
+}
 .section-steps__step {
   box-shadow: rgba(100, 100, 111, 0.2) 0 7px 29px 0;
   width: calc(100vw - 10vw);
   margin: 20px auto;
   border-radius: 20px;
+}
+@media screen and (min-width: 1023px) {
+  .section-steps__step {
+    width: 30%;
+  }
 }
 .section-steps__number {
   height: 25px;
@@ -354,6 +420,21 @@ a:active {
 .section-restaurants {
   padding: 5vw;
   background: #f6f6f6;
+}
+@media screen and (min-width: 1023px) {
+  .section-restaurants {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+}
+.section-restaurants__title {
+  width: 100%;
+}
+@media screen and (min-width: 1023px) {
+  .section-restaurants__anchor {
+    width: 45%;
+  }
 }
 .section-restaurants__card {
   height: 248px;

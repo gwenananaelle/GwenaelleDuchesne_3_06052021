@@ -36,6 +36,19 @@
       background: url($img) top center no-repeat;
       background-size: contain;
       padding-top: 220px;
+      @include desktop {
+        padding-top: 450px;
+      }
     }
+  }
+}
+@mixin tablet {
+  @media screen and (min-width: map-get($breakpoints, tablet)) {
+    @content;
+  }
+}
+@mixin desktop {
+  @media screen and (min-width: map-get($breakpoints, desktop)) {
+    @content;
   }
 }

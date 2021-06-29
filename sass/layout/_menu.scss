@@ -4,6 +4,10 @@
   padding: 30px 20px;
   display: flex;
   flex-direction: column;
+  @include desktop {
+    max-width: 90%;
+    margin: auto;
+  }
   &__header {
     display: flex;
     margin-block-end: 2.13rem;
@@ -18,6 +22,11 @@
 }
 
 .course {
+  @include desktop {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
   animation: menu-apparition $anim-dur both;
   @for $i from 1 to 4 {
     &--#{$i} {
@@ -25,6 +34,7 @@
     }
   }
   &__title {
+    width: 100%;
     text-transform: uppercase;
     font-weight: 100;
     font-size: 1rem;

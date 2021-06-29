@@ -27,11 +27,21 @@
 }
 .section-steps {
   padding: $section-padding;
+  @include desktop {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  &__title {
+    width: 100%;
+  }
   &__step {
     @include box-shadow;
     width: calc(100vw - 10vw);
     margin: 20px auto;
     border-radius: 20px;
+    @include desktop {
+      width: 30%;
+    }
   }
   &__number {
     @include circle;
@@ -50,6 +60,19 @@
 .section-restaurants {
   padding: $section-padding;
   background: #f6f6f6;
+  @include desktop {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  &__title {
+    width: 100%;
+  }
+  &__anchor {
+    @include desktop {
+      width: 45%;
+    }
+  }
   &__card {
     height: 248px;
     width: auto;

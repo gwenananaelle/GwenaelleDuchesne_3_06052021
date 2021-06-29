@@ -4,6 +4,9 @@
   border-radius: 25px;
   display: flex;
   @include box-shadow;
+  @include desktop {
+    width: 30%;
+  }
   margin: 0.75rem 0;
   &__item {
     height: calc(100% - 20px);
