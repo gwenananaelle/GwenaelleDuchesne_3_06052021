@@ -45,9 +45,6 @@ a:active {
   margin: 20px;
   font-size: 1.13rem;
 }
-.header__icon:active {
-  display: none;
-}
 .header__title {
   width: fit-content;
   margin: auto;
