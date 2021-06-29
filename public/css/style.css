@@ -254,9 +254,15 @@ a:active {
   border-radius: 0 25px 25px 0;
   transition: width 400ms, background 200ms;
 }
+.card__check__icon {
+  transition: transform 400ms;
+}
 .card:hover .card__check {
   width: 200px;
   background: #99e2d0;
+}
+.card:hover .card__check__icon {
+  transform: rotate(360deg);
 }
 
 .animated-heart {

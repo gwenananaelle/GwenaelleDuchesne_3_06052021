@@ -47,9 +47,15 @@
     color: #fff;
     border-radius: 0 25px 25px 0;
     transition: width 400ms, background 200ms;
+    &__icon {
+      transition: transform 400ms;
+    }
   }
   &:hover .card__check {
     width: 200px;
     background: $color-tertiary;
+    &__icon {
+      transform: rotate(360deg);
+    }
   }
 }
