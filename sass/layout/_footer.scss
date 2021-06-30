@@ -2,7 +2,7 @@
   background: #353535;
   color: #ffffff;
   padding: $section-padding;
-  @include desktop {
+  @include tablet {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -11,7 +11,7 @@
   &__title {
     font-family: $title-font;
     font-size: 1.13rem;
-    @include desktop {
+    @include tablet {
       width: 100%;
       text-align: center;
     }
