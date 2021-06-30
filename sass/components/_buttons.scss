@@ -7,7 +7,7 @@
   border: none;
   @include box-shadow();
   @include gradient();
-  transition: box-shadow, background-image 1000ms;
+  transition: box-shadow 400ms, background-image 400ms;
   &:hover {
     @include box-shadow(rgba(100, 100, 111, 1), 0, 7px, 29px, 0);
     @include gradient(

@@ -204,7 +204,7 @@ a:active {
   border: none;
   box-shadow: rgba(100, 100, 111, 0.2) 0 7px 29px 0;
   background-image: linear-gradient(to bottom right, #ff79da, #9356dc);
-  transition: box-shadow, background-image 1000ms;
+  transition: box-shadow 400ms, background-image 400ms;
 }
 .btn:hover {
   box-shadow: #64646f 0 7px 29px 0;
