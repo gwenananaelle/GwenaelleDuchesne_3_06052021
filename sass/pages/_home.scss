@@ -4,9 +4,14 @@
 .section-explore {
   background: #f6f6f6;
   text-align: center;
-  padding: 30px 30px 55px 30px;
+  padding: 40px $section-padding;
   &__title {
-    padding: 0 20px;
+    margin-bottom: 20px;
+    padding: 0 $section-padding;
+  }
+  &__btn {
+    margin-bottom: 15px;
+    margin-top: 30px;
   }
 }
 .section-location {
@@ -26,9 +31,11 @@
   }
 }
 .section-steps {
-  padding: $section-padding;
+  padding: 50px $section-padding;
   @include desktop {
     display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
     flex-wrap: wrap;
   }
   &__title {
@@ -36,7 +43,6 @@
   }
   &__step {
     @include box-shadow;
-    width: calc(100vw - 10vw);
     margin: 20px auto;
     border-radius: 20px;
     @include desktop {
@@ -62,6 +68,7 @@
   background: #f6f6f6;
   @include desktop {
     display: flex;
+    align-items: flex-start;
     flex-wrap: wrap;
     justify-content: space-around;
   }

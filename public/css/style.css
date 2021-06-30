@@ -18,7 +18,10 @@ h1 {
   font-family: "Shrikhand", cursive;
 }
 
-h2,
+h2 {
+  font-size: 1.5rem;
+}
+
 h3 {
   font-size: 1.13rem;
 }
@@ -98,17 +101,19 @@ a:active {
 .footer {
   background: #353535;
   color: #ffffff;
-  padding: 5vw;
+  padding: 30px;
 }
 @media screen and (min-width: 1023px) {
   .footer {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    align-items: flex-start;
   }
 }
 .footer__title {
   font-family: "Shrikhand", cursive;
+  font-size: 1.13rem;
 }
 @media screen and (min-width: 1023px) {
   .footer__title {
@@ -128,6 +133,8 @@ a:active {
   border-radius: 45px 45px 0 0;
   padding: 30px 20px;
   display: flex;
+  justify-content: flex-start;
+  align-items: stretch;
   flex-direction: column;
 }
 @media screen and (min-width: 1023px) {
@@ -138,9 +145,9 @@ a:active {
 }
 .section-menu__header {
   display: flex;
-  margin-block-end: 2.13rem;
   justify-content: space-between;
   align-items: center;
+  margin-block-end: 2.13rem;
   font-size: 1.5rem;
 }
 .section-menu__header__title {
@@ -149,11 +156,13 @@ a:active {
 }
 
 .course {
+  margin-bottom: 30px;
   animation: menu-apparition 1s both;
 }
 @media screen and (min-width: 1023px) {
   .course {
     display: flex;
+    align-items: flex-start;
     flex-wrap: wrap;
     justify-content: space-around;
   }
@@ -190,7 +199,7 @@ a:active {
   color: #ffffff;
   padding: 15px 25px;
   width: max-content;
-  margin: auto;
+  margin: 20px auto;
   border-radius: 50px;
   border: none;
   box-shadow: rgba(100, 100, 111, 0.2) 0 7px 29px 0;
@@ -204,9 +213,10 @@ a:active {
 
 .card {
   background: #ffffff;
-  height: 80px;
   border-radius: 25px;
   display: flex;
+  justify-content: flex-start;
+  align-items: stretch;
   box-shadow: rgba(100, 100, 111, 0.2) 0 7px 29px 0;
   margin: 0.75rem 0;
 }
@@ -216,8 +226,7 @@ a:active {
   }
 }
 .card__item {
-  height: calc(100% - 20px);
-  padding: 10px;
+  padding: 5px 10px;
   border-radius: 25px 0 0 25px;
   background: #ffffff;
   flex-grow: 1;
@@ -238,10 +247,10 @@ a:active {
   text-overflow: ellipsis;
 }
 .card__item__span {
-  padding: 0 15px;
+  padding: 15px;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-end;
   font-weight: bold;
   background: #fff;
 }
@@ -415,10 +424,15 @@ a:active {
 .section-explore {
   background: #f6f6f6;
   text-align: center;
-  padding: 30px 30px 55px 30px;
+  padding: 40px 30px;
 }
 .section-explore__title {
-  padding: 0 20px;
+  margin-bottom: 20px;
+  padding: 0 30px;
+}
+.section-explore__btn {
+  margin-bottom: 15px;
+  margin-top: 30px;
 }
 
 .section-location {
@@ -439,11 +453,13 @@ a:active {
 }
 
 .section-steps {
-  padding: 5vw;
+  padding: 50px 30px;
 }
 @media screen and (min-width: 1023px) {
   .section-steps {
     display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
     flex-wrap: wrap;
   }
 }
@@ -452,7 +468,6 @@ a:active {
 }
 .section-steps__step {
   box-shadow: rgba(100, 100, 111, 0.2) 0 7px 29px 0;
-  width: calc(100vw - 10vw);
   margin: 20px auto;
   border-radius: 20px;
 }
@@ -483,12 +498,13 @@ a:active {
 }
 
 .section-restaurants {
-  padding: 5vw;
+  padding: 30px;
   background: #f6f6f6;
 }
 @media screen and (min-width: 1023px) {
   .section-restaurants {
     display: flex;
+    align-items: flex-start;
     flex-wrap: wrap;
     justify-content: space-around;
   }

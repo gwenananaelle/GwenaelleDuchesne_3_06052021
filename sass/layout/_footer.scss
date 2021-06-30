@@ -6,16 +6,18 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    align-items: flex-start;
   }
   &__title {
     font-family: $title-font;
+    font-size: 1.13rem;
     @include desktop {
       width: 100%;
       text-align: center;
     }
   }
   &__icon {
-    min-width: 30px;
+    min-width: $section-padding;
   }
   a {
     color: #ffffff;
