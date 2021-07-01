@@ -35,25 +35,25 @@
       justify-content: center;
       align-items: flex-end;
       font-weight: bold;
-      background: #fff;
     }
   }
   &__check {
-    width: 25px;
+    width: 0px;
+    opacity: 0;
     display: flex;
     justify-content: center;
     align-items: center;
-    background: #fff;
+    background: $color-tertiary;
     color: #fff;
     border-radius: 0 25px 25px 0;
-    transition: width 400ms, background 200ms;
+    transition: opacity 200ms, width 400ms;
     &__icon {
       transition: transform 400ms;
     }
   }
   &:hover .card__check {
     width: 200px;
-    background: $color-tertiary;
+    opacity: 1;
     &__icon {
       transform: rotate(360deg);
     }
